@@ -59,5 +59,11 @@
       "en" : [ "Photos from Skiddaw hike" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://bodl-cmcdonald.github.io/Skiddaw-1/manifests/manifest-skiddaw.json",
+    "label" : {
+      "en" : [ "Photos from Skiddaw hike" ]
+    },
+    "type" : "Manifest"
   } ]
 }
