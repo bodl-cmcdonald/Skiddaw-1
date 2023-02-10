@@ -1,0 +1,186 @@
+{
+  "@context" : [ "http://iiif.io/api/extension/navplace/context.json", "http://iiif.io/api/presentation/3/context.json" ],
+  "id" : "https://bodl-cmcdonald.github.io/Skiddaw-1/manifests/manifest-skiddaw.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Photos from Skiddaw hike" ]
+  },
+  "metadata" : [ {
+    "label" : {
+      "en" : [ "Creator" ]
+    },
+    "value" : {
+      "en" : [ "Callum McDonald" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Date" ]
+    },
+    "value" : {
+      "en" : [ "2019-11-30" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Location" ]
+    },
+    "value" : {
+      "en" : [ "England, Cumbria, Lake District" ]
+    }
+  } ],
+  "summary" : [ {
+    "summary" : {
+      "en" : [ "Photos taken during a hike from High Side to the summit of Skiddaw, Lake District" ]
+    }
+  } ],
+  "rights" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "Attribution" ]
+    },
+    "value" : {
+      "en" : [ "Copyright Callum McDonald but released under CC BY-NC-SA 4.0 license." ]
+    }
+  },
+  "items" : [ {
+    "id" : "http://7c2eb84a-23c1-42c6-94d6-4a3fd73a3e55",
+    "type" : "Canvas",
+    "height" : 3024,
+    "width" : 4032,
+    "label" : {
+      "en" : [ "View from Ullock Pike" ]
+    },
+    "navPlace" : {
+      "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature-collection/1",
+      "type" : "FeatureCollection",
+      "features" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature/1",
+        "type" : "Feature",
+        "properties" : {
+          "label" : {
+            "en" : [ "Photograph shooting location for image 'View from Ullock Pike'" ]
+          }
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 54.6483, -3.1725 ]
+        }
+      } ]
+    },
+    "items" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/anno-page/1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://544c29b0-a286-468b-8f49-7c6e0d2de5c5",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.archivelab.org/iiif/image00001_202302/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpg",
+          "height" : 3024,
+          "width" : 4032,
+          "service" : [ {
+            "id" : "https://iiif.archivelab.org/iiif/image00001_202302",
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "type" : "ImageService2"
+          } ]
+        },
+        "target" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/canvas/1"
+      } ]
+    } ]
+  }, {
+    "id" : "http://4c2f34ac-c1a4-413a-9696-5b54a5625402",
+    "type" : "Canvas",
+    "height" : 3024,
+    "width" : 4032,
+    "label" : {
+      "en" : [ "View of Skiddaw" ]
+    },
+    "navPlace" : {
+      "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature-collection/2",
+      "type" : "FeatureCollection",
+      "features" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature/2",
+        "type" : "Feature",
+        "properties" : {
+          "label" : {
+            "en" : [ "Photograph shooting location for image 'View of Skiddaw'" ]
+          }
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 54.6517, -3.1751 ]
+        }
+      } ]
+    },
+    "items" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/anno-page/2",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://213d05eb-8a6b-454c-84fa-c518d399b53a/",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.archivelab.org/iiif/20191130-141019354-i-os-copy/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpg",
+          "height" : 3024,
+          "width" : 4032,
+          "service" : [ {
+            "id" : "https://iiif.archivelab.org/iiif/20191130-141019354-i-os-copy",
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "type" : "ImageService2"
+          } ]
+        },
+        "target" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/canvas/2"
+      } ]
+    } ]
+  }, {
+    "id" : "http://f7821aa7-105b-431c-8054-d4aecb685d16",
+    "type" : "Canvas",
+    "height" : 3024,
+    "width" : 4032,
+    "label" : {
+      "en" : [ "View of Ullock Pike" ]
+    },
+    "navPlace" : {
+      "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature-collection/2",
+      "type" : "FeatureCollection",
+      "features" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/feature/2",
+        "type" : "Feature",
+        "properties" : {
+          "label" : {
+            "en" : [ "Photograph shooting location for image 'View of Ullock Pike'" ]
+          }
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 54.6487, -3.1479 ]
+        }
+      } ]
+    },
+    "items" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/anno-page/3",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/anno/3",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://iiif.archivelab.org/iiif/20191130-132725007-i-os-copy/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpg",
+          "height" : 3000,
+          "width" : 4030,
+          "service" : [ {
+            "id" : "https://iiif.archivelab.org/iiif/20191130-132725007-i-os-copy",
+            "profile" : "http://iiif.io/api/image/2/level2.json",
+            "type" : "ImageService2"
+          } ]
+        },
+        "target" : "https://iiif.io/api/cookbook/recipe/0240-navPlace-on-canvases/canvas/3"
+      } ]
+    } ]
+  } ]
+}
